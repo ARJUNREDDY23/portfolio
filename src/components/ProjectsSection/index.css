@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.projects-bg-container {
+  background-color: #ffffff20;
+  background-size: cover;
+  height: 100%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.project-container {
+  width: 100%;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects-heading {
+  font-size: 16px;
+}
+.project-image {
+  width: 130px;
+}
+
+@media (min-width: 768px) {
+  .project-image {
+    width: 50%;
+  }
+  .projects-container {
+    display: flex;
+    font-size: 16px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .project-container {
+    width: 50%;
+  }
+  .projects-heading {
+    font-size: 20px;
+  }
+}

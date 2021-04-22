@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.social-apps-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff20;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+.social-anchor {
+  margin-right: 18px;
+}
+@media (max-width: 767px) {
+  .social-apps-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff20;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+  }
+  .social-anchor {
+    margin-right: 18px;
+  }
+  .social-icon {
+    width: 20px;
+  }
+}

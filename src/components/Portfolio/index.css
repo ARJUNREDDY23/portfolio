@@ -1,0 +1,26 @@
+/* Write your CSS here */
+
+.main-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/portfolio-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.body-container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+@media (min-width: 768px) {
+  .main-container {
+    height: 100vh;
+    padding: 30px;
+  }
+  .body-container {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+  }
+}
